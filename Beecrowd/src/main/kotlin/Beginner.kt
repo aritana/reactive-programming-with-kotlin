@@ -4,7 +4,7 @@ import kotlin.math.pow
 
 fun main(args: Array<String>) {
 
-    areaOfCircle()
+    simpleSum()
 
 }
 
@@ -20,4 +20,13 @@ fun areaOfCircle() {
     print("A=$A")
     println()
 
+}
+
+fun simpleSum(){
+    val reader = Scanner(System.`in`)
+    val A:Int = reader.nextInt()
+    val B:Int = reader.nextInt()
+    val SOMA = A + B
+    print("SOMA = $SOMA")
+    println()
 }
