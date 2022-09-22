@@ -4,7 +4,7 @@ import kotlin.math.pow
 
 fun main(args: Array<String>) {
 
-    simpleSum()
+    average1()
 
 }
 
@@ -28,5 +28,23 @@ fun simpleSum(){
     val B:Int = reader.nextInt()
     val SOMA = A + B
     print("SOMA = $SOMA")
+    println()
+}
+
+fun simpleProduct(){
+    val reader = Scanner(System.`in`)
+    val A:Int = reader.nextInt()
+    val B:Int = reader.nextInt()
+    val PROD = A * B
+    print("PROD = $PROD")
+    println()
+}
+
+fun average1(){
+    val reader = Scanner(System.`in`)
+    val A:Double = reader.nextDouble()
+    val B:Double = reader.nextDouble()
+    val MEDIA:Double = (A * 3.5 + B * 7.5)/(3.5 +7.5)
+    print("MEDIA = ${String.format("%.5f",MEDIA)}")
     println()
 }
